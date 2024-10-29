@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import {LoginFeatureComponent} from "@combined-monorepo/login-feature";
 
 @Component({
   standalone: true,
-  imports: [CommonModule, NxWelcomeComponent],
+  imports: [CommonModule, LoginFeatureComponent],
   selector: 'ng-mf-login-entry',
-  template: `<ng-mf-nx-welcome></ng-mf-nx-welcome>`,
+  template: `<lib-login-feature></lib-login-feature>`,
 })
 export class RemoteEntryComponent {}

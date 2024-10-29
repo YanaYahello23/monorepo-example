@@ -1,0 +1,12 @@
+.remote-menu {
+  display: flex;
+  gap: 10px;
+
+  li {
+    list-style: none;
+
+    &:hover {
+      color: coral;
+    }
+  }
+}

@@ -22,7 +22,7 @@
             "input": "apps/login/public"
           }
         ],
-        "styles": ["apps/login/src/styles.scss"],
+        "styles": ["apps/login/src/styles.scss", "libs/shared/styles/src/lib/styles.scss"],
         "scripts": [],
         "customWebpackConfig": {
           "path": "apps/login/webpack.config.ts"

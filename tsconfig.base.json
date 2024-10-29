@@ -15,9 +15,30 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@combined-monorepo/dashboard-domain": [
+        "libs/dashboard/dashboard-domain/src/index.ts"
+      ],
+      "@combined-monorepo/dashboard-feature": [
+        "libs/dashboard/dashboard-feature/src/index.ts"
+      ],
+      "@combined-monorepo/dashboard-ui": [
+        "libs/dashboard/dashboard-ui/src/index.ts"
+      ],
       "@combined-monorepo/data-access-user": [
         "libs/shared/data-access-user/src/index.ts"
       ],
+      "@combined-monorepo/domain": ["libs/dashboard/domain/src/index.ts"],
+      "@combined-monorepo/feature": ["libs/dashboard/feature/src/index.ts"],
+      "@combined-monorepo/lib-dashboard": ["libs/lib-dashboard/src/index.ts"],
+      "@combined-monorepo/login-domain": [
+        "libs/login/login-domain/src/index.ts"
+      ],
+      "@combined-monorepo/login-feature": [
+        "libs/login/login-feature/src/index.ts"
+      ],
+      "@combined-monorepo/login-ui": ["libs/login/login-ui/src/index.ts"],
+      "@combined-monorepo/styles": ["libs/shared/styles/src/index.ts"],
+      "@combined-monorepo/ui": ["libs/dashboard/ui/src/index.ts"],
       "login/Routes": ["apps/login/src/app/remote-entry/entry.routes.ts"]
     }
   },
